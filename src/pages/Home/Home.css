@@ -1,0 +1,67 @@
+.home-bg {
+    height: 100vh;
+    width: 100vw;
+    background: 
+        url('../../Assets/bg1.jpg') center,
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background-blend-mode: multiply;
+}
+
+
+
+.home-heading {
+    padding: 0px 50px 0 100px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+    color: transparent; /* Initially, set the text color to transparent */
+    font-size: 3rem;
+    white-space: nowrap; /* Ensure the text doesn't wrap */
+    color: white;
+}
+
+.home-heading-2{
+    /* border: 2px solid red; */
+    padding: 10px 100px 0 100px;
+    font-family: 'Slabo 27px', serif;
+    /* font-weight: bold; */
+    color: white;
+    font-size: 2rem;
+}
+
+.home-desc{
+    border: 1px solid white;
+    color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    /* padding: 20px 100px 0 100px; */
+    width: 800px;
+    font-size: 1.3rem;
+}
+
+.main{
+    display: flex;
+}
+.left{
+    flex: 3;
+    /* border: 2px solid red; */
+}
+.right{
+    flex: 1;
+}
+.right-head{
+    color: white;
+}
+.right-desc{
+    width: 300px;
+    border: 1px solid white;
+    color: white;
+
+    margin-top: 50px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    /* padding: 20px 100px 0 100px; */
+    /* width: 800px; */
+    font-size: 1.3rem;
+}

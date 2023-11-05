@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #333; */
+    /* border: 2px solid red; */
+    color: #fff;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; /* Add a smooth color transition */
+}
+
+.nav-list li a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    padding-left: 80px; /* Adjust the padding as needed */
+}
+
+.team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
+.team-name:hover {
+    cursor: pointer;
+    color: #ff9900; /* Change the color on hover */
+}

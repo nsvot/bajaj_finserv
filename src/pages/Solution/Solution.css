@@ -1,0 +1,138 @@
+.file-upload-container {
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 20px;
+  height: 100vh;
+  background-color: white;
+}
+.bot{
+  display: flex;
+  height: 70vh;
+  padding: 20px;
+}
+.file-head{
+  color: black;
+  padding-left: 15px;
+}
+.left-panel {
+  /* border: 2px solid red; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #dfdede;
+  border-radius: 10px;
+  box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-button {
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.right-panel {
+  flex: 1;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 20px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  padding: 20px;
+  display: none;
+  transition: opacity 0.5s;
+}
+
+.carousel-item.active {
+  display: block;
+  opacity: 1;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.file-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+}
+
+.file-placeholder p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+.left-panel input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.upload-button {
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Style the label as a button */
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #2980b9;
+}
+
+.solution-desc {
+  background-color: #dfdede;
+  border-radius: 10px;
+  box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.1);
+  padding: 05px 20px;
+  /* box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); */
+}
+
+/* Add this CSS to change the Accordion color to ash black */
+.MuiAccordion-root {
+  background-color: #333333; /* Change this color to ash black or your desired color */
+}
+
+.MuiAccordionSummary-root {
+  background-color: #444444; /* Change this color to a slightly lighter or darker shade as needed */
+  color: white; /* Text color for the Accordion summary */
+}
+
+.MuiAccordionDetails-root {
+  background-color: #333333; /* Change this color to match the Accordion background */
+  color: white; /* Text color for the Accordion details */
+}
+
+/* Add additional styling as needed */
