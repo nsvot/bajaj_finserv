@@ -40,7 +40,7 @@ function About() {
   ];
 
   return (
-    <div className="about">
+    <div className="about-container" id='about'>
       <h1>Our Team - HackTheHustle</h1>
       <div className="team-members">
         {teamMembers.map((member) => (

@@ -3,14 +3,10 @@
   /* align-items: center; */
   /* justify-content: center; */
   padding: 20px;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: white;
 }
-.bot{
-  display: flex;
-  height: 70vh;
-  padding: 20px;
-}
+
 .file-head{
   color: black;
   padding-left: 15px;

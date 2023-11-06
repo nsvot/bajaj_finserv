@@ -2,6 +2,9 @@ import React from "react";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Solution from "./pages/Solution/Solution";
+import Architecture from "./pages/Architecture/Architecture";
+import Feedback from "./pages/Feedback/Feedback";
+import Footer from "./pages/Footer/Footer";
 
 const App = () => {
   var h1 =
@@ -9,10 +12,15 @@ const App = () => {
       return (
     <>
       <Home />
-      <Solution heading="Whitener Detection" text={h1} />
-      <Solution heading="Digital Forgery Detection" text={h1} />
-      <Solution heading="Data Manipulation Detection" text={h1} />
+      <Solution heading="Whitener Detection" id="white-detect" text={h1} />
+      <Solution heading="Digital Forgery Detection" id="digital-detect" text={h1} />
+      <Solution heading="Data Manipulation Detection" id="data-detect" text={h1} />
       <About />
+      <Architecture />
+
+      <Feedback />
+
+      <Footer />
     </>
   );
 };

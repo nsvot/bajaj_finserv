@@ -1,0 +1,91 @@
+.arch-container{
+    height: 100%;
+    padding: 3.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .arch-container{
+        padding: 2rem;
+    }
+    
+}
+
+.arch-heading{
+    color: black;
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.arch-content-container{
+    /* height: 92vh; */
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .arch-content-container{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    
+}
+
+.arch-img, .arch-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arch-content-strucutre{
+    display: flex;
+    flex-direction: column;
+    width: full;
+    row-gap: 3.5rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .arch-content{
+        justify-content: start;
+    }
+
+    .arch-content-strucutre{
+        width: 75%;
+    }
+}
+
+.arch-content-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.arch-text{
+    color: #677F8B;
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .arch-text{
+        font-size: 16px;
+    }
+}
+
+.arch-img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .arch-img{
+        width: 100%;
+    }
+
+    .arch-img img {
+        width: 100%;
+    }
+    
+}
