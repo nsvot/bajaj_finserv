@@ -11,6 +11,7 @@ function Navbar() {
                 <li><a href="/">Home</a></li>
                 <li><a href="/upload">Upload</a></li>
                 <li><a href="/about">About</a></li>
+                {/* <li><a href="/login">Log In/Sign Up</a></li> */}
             </ul>
         </nav>
     );

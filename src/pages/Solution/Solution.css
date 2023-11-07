@@ -1,43 +1,70 @@
 .file-upload-container {
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  padding: 20px;
-  /* height: 100vh; */
-  background-color: white;
+  padding: 50px 20px;
+      background: 
+        url('../../Assets/bg1.jpg') center,
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background-blend-mode: multiply;
+    height: 100vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
-.file-head{
-  color: black;
+.file-head {
+  color: white;
   padding-left: 15px;
 }
+
 .left-panel {
-  /* border: 2px solid red; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(45deg, #3498db, #3c92e7, #12e4f3); 
+  box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: slideIn 1s ease;
+  border-radius: 10px;
+}
+.left-panel {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   background-color: #dfdede;
-  border-radius: 10px;
   box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.1);
   text-align: center;
+  animation: fadeIn 1s ease; /* Adding a fadeIn animation */
 }
 
-.upload-button {
-  cursor: pointer;
-  background-color: #3498db;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 20px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
+/* Style for the file description */
+.desc-model {
+  margin-top: 20px;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+/* .upload-button:hover {
+  background-color: #ffffff;
+  transform: scale(1.05);
+} */
 
 .right-panel {
   flex: 1;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   padding: 20px;
 }
 
@@ -80,55 +107,55 @@
   font-size: 16px;
   color: #333;
 }
+
 .left-panel input[type="file"] {
-  display: none; /* Hide the default file input */
+  display: none;
 }
 
 .upload-button {
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #000304;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 20px;
-}
-
-/* Style the label as a button */
-.upload-button {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .upload-button:hover {
   background-color: #2980b9;
+  transform: scale(1.05);
 }
 
 .solution-desc {
-  background-color: #dfdede;
   border-radius: 10px;
-  box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.1);
-  padding: 05px 20px;
-  /* box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #e0e0e0;
 }
 
-/* Add this CSS to change the Accordion color to ash black */
 .MuiAccordion-root {
-  background-color: #333333; /* Change this color to ash black or your desired color */
+  background-color: #333333;
+  margin: 10px 0;
+  border-radius: 5px;
 }
 
 .MuiAccordionSummary-root {
-  background-color: #444444; /* Change this color to a slightly lighter or darker shade as needed */
-  color: white; /* Text color for the Accordion summary */
+  background-color: #444444;
+  color: white;
 }
 
 .MuiAccordionDetails-root {
-  background-color: #333333; /* Change this color to match the Accordion background */
-  color: white; /* Text color for the Accordion details */
+  background-color: #333333;
+  color: white;
 }
 
-/* Add additional styling as needed */
+.right-panel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* background: linear-gradient(45deg, #fafbfc, #e6eef7, #91eafc);  */
+}
