@@ -35,7 +35,7 @@ if(load){
  const router = createBrowserRouter([
   {
     path: "/",
-    element: [<Home/>,<About/>,<Footer/>],
+    element: [<Home/>,<About/>,<Feedback/>,<Footer/>],
   },
   
   {

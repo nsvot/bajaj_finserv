@@ -1,0 +1,88 @@
+/* Feedback.css */
+
+/* General styling */
+#feedback {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    background: 
+    url('../../Assets/bg1.jpg') center,
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+background-blend-mode: multiply;
+width: 100%;
+color: white;
+  }
+  input{
+    color: white;
+  }
+  
+  /* Header style */
+  #feedback h1 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* Questions and options layout */
+  .question {
+    margin-bottom: 30px;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  /* Radio button style */
+  .options input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  /* Text input style */
+  .options input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button style */
+  .submit-btn {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #207ab4;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply animations to elements */
+  #feedback {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Further specific styling can be added based on your design requirements */
+  
